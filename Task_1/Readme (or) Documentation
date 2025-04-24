@@ -1,0 +1,74 @@
+📘 Fibonacci Series Generator – Java Swing Application
+🔰 Project Overview
+This is a Java Swing-based GUI application that generates and displays the Fibonacci series based on user input. The user can choose between:
+
+Generating Fibonacci numbers up to a specified number, or
+
+Generating a specific number of terms in the series.
+
+🧩 Features
+GUI-based input using Java Swing.
+
+Option to choose between:
+
+Fibonacci up to a number
+
+Fibonacci by number of terms
+
+Input validation with proper error messaging.
+
+Scrollable output display using a JTextArea.
+
+🛠️ Technologies Used
+
+Component	Description
+Java	Core logic and application code
+Swing	GUI (Graphical User Interface)
+🖥️ UI Components
+JTextField – for user to input the number.
+
+JRadioButton – to select between the two modes:
+
+"Up to Number"
+
+"By Number of Terms"
+
+JButton – to trigger the Fibonacci generation.
+
+JTextArea – displays the result.
+
+JOptionPane – shows error messages if invalid input is entered.
+
+🔎 How It Works
+User Workflow:
+Launch the application.
+
+Enter a number in the input field.
+
+Select one of the two options:
+
+"Up to Number": Generates Fibonacci numbers ≤ input value.
+
+"By Number of Terms": Generates the first N terms of the Fibonacci sequence.
+
+Click on the “Generate” button or press Enter.
+
+The result is shown in the scrollable text area.
+
+Input Validation:
+If a non-numeric value is entered, the app will show an error dialog using JOptionPane.
+
+💡 Sample Usage
+Input: 10, selected option: Up to Number
+Output: 0 1 1 2 3 5 8
+
+Input: 6, selected option: By Number of Terms
+Output: 0 1 1 2 3 5
+
+🔚 Class Breakdown
+Fibo_series (extends JFrame)
+
+Method	Description
+Fibo_series()	Constructor that sets up the GUI layout and component listeners.
+generatefibo()	Core logic to calculate and display Fibonacci series based on selected mode.
+main()	Launches the Swing application on the Event Dispatch Thread using SwingUtilities.
