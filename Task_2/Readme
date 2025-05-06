@@ -1,0 +1,40 @@
+# 🧠 Math Quiz GUI Application (Java Swing)
+
+A simple interactive Java Swing application that generates random math problems (addition, subtraction, multiplication, and division), collects user input, checks answers, and displays the final score.
+
+---
+
+## 🚀 Features
+
+- Randomly generated arithmetic questions.
+- User-friendly GUI using **Java Swing**.
+- Real-time score tracking.
+- Final score display after quiz completion.
+- Input validation and basic error handling.
+
+---
+
+## 🛠️ Technologies Used
+
+- Java (JDK 8 or higher)
+- Java Swing (for GUI)
+- `javax.swing` and `java.awt` libraries
+
+---
+
+## 🎮 How It Works
+
+1. The user is presented with a random math question.
+2. The user inputs the answer and clicks **Submit**.
+3. The application checks the answer and updates the score.
+4. After a fixed number of questions (default: 5), the final score is displayed.
+
+---
+
+## 📦 Installation & Usage
+
+### 1. Clone or Download the Project
+
+```bash
+git clone https://github.com/yourusername/MathQuizGUI.git
+cd MathQuizGUI
