@@ -35,6 +35,4 @@ A simple interactive Java Swing application that generates random math problems 
 
 ### 1. Clone or Download the Project
 
-```bash
-git clone https://github.com/yourusername/MathQuizGUI.git
-cd MathQuizGUI
+### 2. Run it on Local Machine using an IDE
