@@ -26,7 +26,7 @@ public class AdventureGameSwing {
         frame.setSize(600, 400);
     
         // Set background panel with image
-        BackgroundPanel backgroundPanel = new BackgroundPanel("C:/python_projects/Java programs/virtunexa_intern/Task_3/adventure/resources/background.png");
+        BackgroundPanel backgroundPanel = new BackgroundPanel("resources/background.png");
         backgroundPanel.setLayout(new BorderLayout());
     
         storyArea = new JTextArea();
