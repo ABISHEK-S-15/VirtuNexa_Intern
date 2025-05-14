@@ -1,0 +1,83 @@
+# 🧙 Chronicles of Aetherion: The Shattered Realm
+
+A fantasy-themed **Java Swing adventure game** where your choices shape the fate of Aetherion. The game features a branching story, beautiful UI with background image.
+
+---
+
+## 🚀 Features
+
+- 🧭 Interactive choice-driven gameplay (20 branching story nodes)
+- 🎨 Graphical UI with background image
+- 🧠 Modular design with `StoryNode`and `StoryLoader`classes
+
+---
+
+## 🗂️ Project Structure
+
+Task_3/
+│
+├── adventure/
+│ |-- AdventureGameSwing.java # Main UI and game logic
+│ |-- StoryNode.java # Story node structure
+│ |-- StoryLoader.java # Static story node loader
+│ |-- Choice.java #choice management
+| |--BackgroundPanel.java #Handles the Backgrount theme
+│
+├── resources/
+│ ├── background.png # UI background image
+│ 
+│
+| |-- output #this folder contains the screenshots of how the output look like
+|
+└── README.md # Project documentation
+
+---
+
+## 🎮 How to Play
+
+1. **Launch the Game**  
+   Run the `AdventureGameSwing` class to start.
+
+2. **Read the Story**  
+   The main story text is shown in the center panel.
+
+3. **Make Your Choice**  
+   Choose one of the provided options to progress the story.
+
+4. **Reach the End**  
+   Story paths end with a final screen that lets you exit.
+
+---
+
+## 🛠️ How to Run
+
+### 🔧 Prerequisites
+- Java JDK 8 or above
+- IDE (IntelliJ, Eclipse , VScode) or terminal with `javac`/`java`
+
+### 💻 Compile and Run
+
+From command line:
+```bash
+javac -d bin -sourcepath src src/AdventureGameSwing.java
+java -cp bin AdventureGameSwing
+Or open the project in your IDE and run AdventureGameSwing.
+
+
+📸 UI Preview
+
+Sample UI with background and fantasy font
+
+🧩 Extend or Modify
+Add more story nodes in StoryLoader.java
+
+Change background or font
+
+#Future Enhancement
+Add save/load features or achievements
+
+
+🧠 Author
+Abishek
+B.Tech IT Student | Aspiring Software Developer | LinkedIn : 
+
