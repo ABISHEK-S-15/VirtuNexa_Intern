@@ -1,0 +1,107 @@
+🏨 Hotel Booking System - Java Swing
+This is a Java Swing-based Hotel Booking System that allows users to:
+
+📅 Book rooms
+
+❌ Cancel reservations
+
+🔎 Check room availability
+
+📄 View all reservations
+
+---------------------------------------------------------------------------------
+
+🧰 Features
+GUI built using Java Swing
+
+Navigation with OK, Back, and Exit buttons
+
+Room booking with name, date (YYYY-MM-DD), and type
+
+Cancellation using Reservation ID
+
+Availability check by date and room type
+
+Reservation records viewable in a scrollable panel
+
+Manual date input (no date picker used)
+
+Exits only via the "Exit" button (window close is disabled)
+-----------------------------------------------------------------------------------
+📁 File Structure
+
+HotelBookingSystem/
+│
+├── Reservation.java       # Reservation class model
+├── Hotel.java             # Business logic for booking, cancelling, checking
+└── MainFrame.java         # Java Swing GUI and user interaction
+------------------------------------------------------------------------------------
+
+💻 Requirements
+Java JDK 8 or above
+
+Any text editor or IDE (like IntelliJ IDEA, Eclipse, VS Code)
+
+🛠️ How to Compile and Run
+✅ Using Command Line:
+
+javac Reservation.java Hotel.java MainFrame.java
+java MainFrame
+✅ Using an IDE:
+Create a new Java project
+
+Add the 3 .java files
+
+Run MainFrame.java
+---------------------------------------------------------------------------------------
+🖼️ User Interface Flow
+Task Selection Screen
+
+Select from: Book Room, Cancel Reservation, Check Availability, View Reservations
+
+Use OK to proceed, Exit to close
+
+Booking Screen
+
+Enter: Customer Name, Date (YYYY-MM-DD), Room Type
+
+Use OK to book, Back to return
+
+Cancel Screen
+
+Enter: Reservation ID
+
+Use OK to cancel
+
+Availability Check
+
+Enter: Date and Room Type
+
+Displays room availability status
+
+View Reservations
+
+Shows all current reservations
+
+Scrollable text area
+-------------------------------------------------------------------------------------------
+🛏️ Room Types and Capacity #It can be Changeable
+Room Type	Capacity
+Single	10
+Double	10
+Suite	5
+
+✏️ Notes
+All dates must be entered in YYYY-MM-DD format.
+
+Room availability is limited per type and date.
+
+All screens are controlled only through OK, Back, and Exit buttons.
+
+No third-party libraries used (pure Java and Swing).
+
+NOTE: ScreenShots has been shared it the output folder.
+
+👨‍💻 Author
+Abishek .S
+B.Tech IT | Java Developer | Full Stack Enthusiast
